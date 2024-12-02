@@ -22,6 +22,10 @@ To use my customized implementation of LoRA, please follow below-mentioned steps
 * Understand the custom LoRA implementation from `llama3_2_lora/lora/lora.py`
 * Finetune the model using `llama3_2_lora/finetune_lora.py`
 
+### Expected output, runtime and memory requirement:
+At the end of finetuning, you will find several checkpoints in `llama3_2_lora/checkpoint` folder. The finetune script can be configured to save intermediate checkpoints at any interval. This script take roughly ~3 to 4 hours to complete on `RTX 3090` and uses ~11-13G of VRAM. 
+
+
 ## ToDo:
 Add finetuning with QLoRA.
 
