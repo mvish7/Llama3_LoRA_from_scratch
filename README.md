@@ -1,10 +1,13 @@
 # Implementing LoRA from Scratch
-This repo finetunes Llama3.2 models on Alpaca dataset with a custom, simplified implementation of LoRA. 
+This repo finetunes Llama3.2 models on Alpaca dataset with a custom, simplified implementation of LoRA. To make my life easier, I have used the [model definition of Llama3.2](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch05/07_gpt_to_llama/standalone-llama32.ipynb) and, [dataset preparation](https://github.com/rasbt/lit-llama/blob/main/scripts/prepare_alpaca.py) from @rasbt. 
+
+This project would have taken lot longer without @rasbt and his intuitive implementations, so many thanks to @rasbt.
+
 
 ## How to use:
 
 ### Getting started:
-Reading [LoRA's paper](https://arxiv.org/abs/2106.09685)\
+Reading [LoRA's paper](https://arxiv.org/abs/2106.09685)
 
 ### LoRA Toy example:
 Use the `lora_toy_example.ipynb` notebook to understand need of LoRA and it's basic building blocks.
